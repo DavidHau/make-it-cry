@@ -11,4 +11,9 @@ public class FaceTest {
     public void should_smile() throws Exception {
         assertThat(new Face().face(), is("smile"));
     }
+
+    @Test
+    public void should_cry() throws Exception {
+        assertThat(new Face().face(), is("cry"));
+    }
 }
